@@ -14,9 +14,7 @@
 		1A000009 /* AddEditContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A000008 /* AddEditContactView.swift */; };
 		1A00000B /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00000A /* ContactDetailView.swift */; };
 		1A00000D /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00000C /* PersistenceController.swift */; };
-		1A00000F /* NetworkContact+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00000E /* NetworkContact+CoreDataClass.swift */; };
-		1A000011 /* NetworkContact+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A000010 /* NetworkContact+CoreDataProperties.swift */; };
-		1A000013 /* WhosDatModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1A000012 /* WhosDatModel.xcdatamodeld */; };
+		1A00000F /* WhosDatModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1A00000E /* WhosDatModel.xcdatamodel */; };
 		1A000015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A000014 /* Assets.xcassets */; };
 		1A000018 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A000017 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -29,9 +27,7 @@
 		1A000008 /* AddEditContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditContactView.swift; sourceTree = "<group>"; };
 		1A00000A /* ContactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailView.swift; sourceTree = "<group>"; };
 		1A00000C /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
-		1A00000E /* NetworkContact+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkContact+CoreDataClass.swift"; sourceTree = "<group>"; };
-		1A000010 /* NetworkContact+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkContact+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		1A000012 /* WhosDatModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WhosDatModel.xcdatamodeld; sourceTree = "<group>"; };
+		1A00000E /* WhosDatModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WhosDatModel.xcdatamodeld; sourceTree = "<group>"; };
 		1A000014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A000017 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1A000019 /* WhosDat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhosDat.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,9 +63,7 @@
 				1A000008 /* AddEditContactView.swift */,
 				1A00000A /* ContactDetailView.swift */,
 				1A00000C /* PersistenceController.swift */,
-				1A00000E /* NetworkContact+CoreDataClass.swift */,
-				1A000010 /* NetworkContact+CoreDataProperties.swift */,
-				1A000012 /* WhosDatModel.xcdatamodel */,
+				1A00000E /* WhosDatModel.xcdatamodel */,
 				1A000014 /* Assets.xcassets */,
 				1A00001A /* Info.plist */,
 				1A00001E /* Preview Content */,
@@ -169,9 +163,7 @@
 				1A000009 /* AddEditContactView.swift in Sources */,
 				1A00000B /* ContactDetailView.swift in Sources */,
 				1A00000D /* PersistenceController.swift in Sources */,
-				1A00000F /* NetworkContact+CoreDataClass.swift in Sources */,
-				1A000011 /* NetworkContact+CoreDataProperties.swift in Sources */,
-				1A000013 /* WhosDatModel.xcdatamodeld in Sources */,
+				1A00000F /* WhosDatModel.xcdatamodeld in Sources */,
 				1A000001 /* WhosDatApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

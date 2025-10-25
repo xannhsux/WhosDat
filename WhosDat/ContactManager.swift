@@ -71,7 +71,7 @@ class ContactManager: ObservableObject {
         return Array(Set(connections)).sorted()
     }
     
-    func addContact(name: String, company: String?, role: String?, education: String?, connection: String?, phone: String?, email: String?, linkedin: String?, instagram: String?, twitter: String?, notes: String?) {
+    func addContact(name: String, company: String?, role: String?, education: String?, connection: String?, phone: String?, email: String?, linkedin: String?, instagram: String?, twitter: String?, notes: String?, birthday: Date?, ethnicity: String?, nationality: String?) {
         let newContact = NetworkContact(context: viewContext)
         newContact.name = name
         newContact.company = company
@@ -84,12 +84,15 @@ class ContactManager: ObservableObject {
         newContact.instagram = instagram
         newContact.twitter = twitter
         newContact.notes = notes
+        newContact.birthday = birthday
+        newContact.ethnicity = ethnicity
+        newContact.nationality = nationality
         newContact.dateAdded = Date()
         
         saveContext()
     }
     
-    func updateContact(_ contact: NetworkContact, name: String, company: String?, role: String?, education: String?, connection: String?, phone: String?, email: String?, linkedin: String?, instagram: String?, twitter: String?, notes: String?) {
+    func updateContact(_ contact: NetworkContact, name: String, company: String?, role: String?, education: String?, connection: String?, phone: String?, email: String?, linkedin: String?, instagram: String?, twitter: String?, notes: String?, birthday: Date?, ethnicity: String?, nationality: String?) {
         contact.name = name
         contact.company = company
         contact.role = role
@@ -101,6 +104,9 @@ class ContactManager: ObservableObject {
         contact.instagram = instagram
         contact.twitter = twitter
         contact.notes = notes
+        contact.birthday = birthday
+        contact.ethnicity = ethnicity
+        contact.nationality = nationality
         
         saveContext()
     }
